@@ -34,7 +34,7 @@ body {
 }
 
 .wrapper .botside {
-  background-image: url(/home/haitar/Downloads/My-Github/frontend-mentor-fylo-data-storage/images/bg-desktop.png);
+  background-image: url(../images/bg-desktop.png);
   background-size: cover;
   height: 50%;
   display: flex;
@@ -157,6 +157,16 @@ body {
   margin: auto;
   border-radius: 50px;
   position: relative;
+}
+.right-side .progress-bar::after {
+  content: "";
+  position: absolute;
+  background: white;
+  height: 80%;
+  width: 20px;
+  right: 20%;
+  top: 2px;
+  border-radius: 50%;
 }
 .right-side .progress-bar ::before {
   content: "0gb";
